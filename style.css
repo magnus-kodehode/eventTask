@@ -1,0 +1,39 @@
+h1, h2, p {
+    color: #3a86ff;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+body {
+    background-color: #ffbe0b;
+    width: 30rem;
+    margin: 0 auto;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+button {
+   margin: 10px;
+   border: none;
+   background-color: #3a86ff;
+   color: #ff006e;
+   font-weight: bold;
+   text-shadow: #252525 1px 1px;
+   padding: 10px 25px;
+   border-radius: 10px;
+}
+
+button:hover {
+    background-color: #bc6c25;
+}
+
+#inputFieldEl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
